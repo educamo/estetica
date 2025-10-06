@@ -15,44 +15,44 @@ export default function HomePage() {
   const galleryImages = [
     [
       {
-        src: "/waxing-treatment-with-golden-wax.jpg",
+        src: "./waxing-treatment-with-golden-wax.jpg",
         alt: "Tratamiento de depilación",
         description: "Depilación profesional con cera dorada para una piel suave y radiante",
       },
       {
-        src: "/luxury-spa-products-and-treatments.jpg",
+        src: "./luxury-spa-products-and-treatments.jpg",
         alt: "Productos de spa",
         description: "Productos de alta calidad para tratamientos de spa y relajación",
       },
       {
-        src: "/nail-art-and-manicure-tools.jpg",
+        src: "./nail-art-and-manicure-tools.jpg",
         alt: "Arte de uñas",
         description: "Diseños únicos de arte en uñas con técnicas profesionales",
       },
       {
-        src: "/hair-styling-treatment.png",
+        src: "./hair-styling-treatment.png",
         alt: "Peinado profesional",
         description: "Cortes y peinados personalizados para realzar tu belleza natural",
       },
     ],
     [
       {
-        src: "/beautiful-woman-with-elegant-makeup-and-styling.jpg",
+        src: "./beautiful-woman-with-elegant-makeup-and-styling.jpg",
         alt: "Maquillaje elegante",
         description: "Maquillaje profesional para ocasiones especiales",
       },
       {
-        src: "/professional-nail-art-and-manicure.jpg",
+        src: "./professional-nail-art-and-manicure.jpg",
         alt: "Manicure profesional",
         description: "Manicure y pedicure con acabados perfectos",
       },
       {
-        src: "/professional-hair-styling-and-treatment.jpg",
+        src: "./professional-hair-styling-and-treatment.jpg",
         alt: "Tratamiento capilar",
         description: "Tratamientos capilares nutritivos y reparadores",
       },
       {
-        src: "/hands-receiving-professional-spa-treatment.jpg",
+        src: "./hands-receiving-professional-spa-treatment.jpg",
         alt: "Tratamiento de manos",
         description: "Cuidado especializado para manos suaves y hermosas",
       },
@@ -90,7 +90,7 @@ export default function HomePage() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
-            backgroundImage: "url('/luxury-spa-treatment-room.png')",
+            backgroundImage: "url('./luxury-spa-treatment-room.png')",
           }}
         />
         <div className="relative container mx-auto px-4 text-center">
@@ -116,9 +116,9 @@ export default function HomePage() {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/3">
               <img
-                src="/beautiful-woman-with-elegant-makeup-and-styling.jpg"
+                src="./beautiful-woman-with-elegant-makeup-and-styling.jpg"
                 alt="Transformación estética"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg shadow-lg w-full img-transformation"
               />
             </div>
             <div className="lg:w-2/3">
@@ -142,12 +142,12 @@ export default function HomePage() {
             <Card className="bg-card hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="h-48 bg-muted rounded-lg mb-4 flex items-center justify-center">
-                  <img src="/images/waxing.png" alt="Depilación" className="rounded-lg object-cover w-full h-full" />
+                  <img src="./images/waxing.png" alt="Depilación" className="rounded-lg object-cover w-full h-full" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-card-foreground">Depilación</h3>
                 <p className="text-muted-foreground mb-4">Técnicas expertas para una piel suave y radiante.</p>
                 <Button asChild className="w-full bg-primary text-primary-foreground">
-                  <Link href="/services/depilaciones">Ver más</Link>
+                  <Link href="./services/depilaciones">Ver más</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -156,7 +156,7 @@ export default function HomePage() {
               <CardContent className="p-6">
                 <div className="h-48 bg-muted rounded-lg mb-4 flex items-center justify-center">
                   <img
-                    src="/professional-nail-art-and-manicure.jpg"
+                    src="./professional-nail-art-and-manicure.jpg"
                     alt="Uñas"
                     className="rounded-lg object-cover w-full h-full"
                   />
@@ -166,7 +166,7 @@ export default function HomePage() {
                   Manicure y pedicure con diseños únicos y productos de alta calidad.
                 </p>
                 <Button asChild className="w-full bg-primary text-primary-foreground">
-                  <Link href="/services/unas">Ver más</Link>
+                  <Link href="./services/unas">Ver más</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -175,7 +175,7 @@ export default function HomePage() {
               <CardContent className="p-6">
                 <div className="h-48 bg-muted rounded-lg mb-4 flex items-center justify-center">
                   <img
-                    src="/professional-hair-styling-and-treatment.jpg"
+                    src="./professional-hair-styling-and-treatment.jpg"
                     alt="Peinados"
                     className="rounded-lg object-cover w-full h-full"
                   />
@@ -183,7 +183,7 @@ export default function HomePage() {
                 <h3 className="text-xl font-semibold mb-2 text-card-foreground">Peinados</h3>
                 <p className="text-muted-foreground mb-4">Cortes, peinados y tratamientos capilares personalizados.</p>
                 <Button asChild className="w-full bg-primary text-primary-foreground">
-                  <Link href="/services/peinados">Ver más</Link>
+                  <Link href="./services/peinados">Ver más</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -226,7 +226,7 @@ export default function HomePage() {
               {galleryImages[currentSlide].map((image, index) => (
                 <div key={index} className="aspect-square bg-card rounded-lg overflow-hidden relative group">
                   <img
-                    src={image.src || "/placeholder.svg"}
+                    src={image.src || "./placeholder.svg"}
                     alt={image.alt}
                     className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
                   />
@@ -261,7 +261,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/hands-receiving-professional-spa-treatment.jpg"
+                src="./hands-receiving-professional-spa-treatment.jpg"
                 alt="Tratamiento de manos"
                 className="rounded-lg shadow-lg w-full"
               />
