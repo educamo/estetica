@@ -59,7 +59,7 @@ export default function UnasPage() {
 
             <div className="lg:w-1/2">
               <img
-                src="/professional-nail-art-and-manicure-design.jpg"
+                src="./professional-nail-art-and-manicure-design.jpg"
                 alt="Arte de uñas profesional"
                 className="rounded-lg shadow-lg w-full"
               />

@@ -44,7 +44,7 @@ export default function DepilacionesPage() {
             {/* Image */}
             <div className="lg:w-1/2">
               <img
-                src="/professional-waxing-treatment-with-golden-wax-bein.jpg"
+                src="./professional-waxing-treatment-with-golden-wax-bein.jpg"
                 alt="Tratamiento de depilación con cera"
                 className="rounded-lg shadow-lg w-full"
               />

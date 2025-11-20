@@ -69,7 +69,7 @@ export default function PeinadosPage() {
 
             <div className="lg:w-1/2">
               <img
-                src="/professional-hair-styling-and-cutting.jpg"
+                src="./professional-hair-styling-and-cutting.jpg"
                 alt="Peinado profesional"
                 className="rounded-lg shadow-lg w-full"
               />

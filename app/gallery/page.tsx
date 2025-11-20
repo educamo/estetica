@@ -25,7 +25,7 @@ export default function GalleryPage() {
                 className="aspect-square bg-muted rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
               >
                 <img
-                  src={`/abstract-geometric-shapes.png?height=400&width=400&query=${query}`}
+                  src={`./abstract-geometric-shapes.png?height=400&width=400&query=${query}`}
                   alt={`Galería imagen ${index + 1}`}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />

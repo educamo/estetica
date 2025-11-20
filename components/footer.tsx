@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Twitter, Instagram, Facebook } from "lucide-react"
 
 export function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-slate-800 text-white py-8">
       <div className="container mx-auto px-4">
@@ -10,7 +11,7 @@ export function Footer() {
             <div className="w-8 h-8 bg-secondary rounded-full flex items-center justify-center">
               <span className="text-secondary-foreground font-bold">B</span>
             </div>
-            <span className="text-lg">© 2025 Bella Soins, Inc</span>
+            <span className="text-lg">Bella Soins, Inc</span>
           </div>
 
           <div className="flex space-x-4">
@@ -27,7 +28,7 @@ export function Footer() {
         </div>
 
         <div className="text-center mt-6 pt-6 border-t border-slate-700">
-          <p className="text-sm text-slate-400">Design by C. Eduardo Carrasco</p>
+          <p className="text-sm text-slate-400">© {currentYear} Design by C. Eduardo Carrasco</p>
         </div>
       </div>
     </footer>

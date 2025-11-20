@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
 import { useState, useEffect, useRef } from "react"
+import { Phone, Mail, MapPinHouse } from "lucide-react"
 
 export default function HomePage() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -286,15 +287,15 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-12 text-foreground">Información de locación</h2>
           <div className="max-w-md mx-auto space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-6 h-6 bg-secondary rounded-full flex-shrink-0"></div>
+              <div className="w-6 h-6 bg-secondary rounded-full flex-shrink-0"><Phone /></div>
               <span className="text-foreground">Call: 000-000</span>
             </div>
             <div className="flex items-center space-x-3">
-              <div className="w-6 h-6 bg-secondary rounded-full flex-shrink-0"></div>
+              <div className="w-6 h-6 bg-secondary rounded-full flex-shrink-0"><Mail /></div>
               <span className="text-foreground">bellasoins@email.com</span>
             </div>
             <div className="flex items-center space-x-3">
-              <div className="w-6 h-6 bg-secondary rounded-full flex-shrink-0"></div>
+              <div className="w-6 h-6 bg-secondary rounded-full flex-shrink-0"><MapPinHouse /></div>
               <span className="text-foreground">Dirección: Calle 123, San José, Estado Carabobo, Venezuela</span>
             </div>
           </div>
