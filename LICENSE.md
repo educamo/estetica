@@ -2,7 +2,7 @@ Copyright (c) C. Eduardo Carrasco
 
 Project: Estetica (Bella Soins)
 
-# Licencia del Repositorio "Aplicación Web de Aseguradoras"
+# Licencia del Repositorio "Aplicación Web de Estetica o Spa"
 
 ---
 
