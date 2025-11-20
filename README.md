@@ -35,3 +35,5 @@ El sitio se construirá utilizando tecnologías web modernas para asegurar un al
 
 # Valor Agregado
 Este proyecto no es solo la creación de una página web, sino la construcción de una herramienta de crecimiento para Bella Soins Spa. El sitio web permitirá una gestión más eficiente de las citas, reducirá la carga administrativa y, lo más importante, ampliará la base de clientes al ofrecer una experiencia en línea que refleja la calidad y el cuidado que los clientes reciben en persona.
+
+## AUTHOR: C. Eduardo Carrasco Dev.

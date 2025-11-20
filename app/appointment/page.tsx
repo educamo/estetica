@@ -137,7 +137,7 @@ export default function AppointmentPage() {
               <div className="relative">
                 <div className="absolute -top-4 -right-4 w-full h-full bg-primary rounded-lg opacity-20"></div>
                 <img
-                  src="../elegant-woman-with-hands-covering-face-in-spa-sett.jpg"
+                  src="./../elegant-woman-with-hands-covering-face-in-spa-sett.jpg"
                   alt="Mujer elegante en spa"
                   className="relative rounded-lg shadow-lg w-full"
                 />
